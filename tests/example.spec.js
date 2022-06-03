@@ -12,7 +12,3 @@ test.only('Example Test - 1', async ({ page }) => {
   await page.selectOption('#gender-radio-1', { label: 'Male' });
 
 });
-
-test('Example Test - 2', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-});
